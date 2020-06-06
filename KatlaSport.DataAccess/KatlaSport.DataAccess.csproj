@@ -86,6 +86,10 @@
     <Compile Include="Migrations\202006062039540_AddCategoryDescription.Designer.cs">
       <DependentUpon>202006062039540_AddCategoryDescription.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202006062109247_AddProductDescriptionManCodePrice.cs" />
+    <Compile Include="Migrations\202006062109247_AddProductDescriptionManCodePrice.Designer.cs">
+      <DependentUpon>202006062109247_AddProductDescriptionManCodePrice.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -98,6 +102,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202006062039540_AddCategoryDescription.resx">
       <DependentUpon>202006062039540_AddCategoryDescription.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202006062109247_AddProductDescriptionManCodePrice.resx">
+      <DependentUpon>202006062109247_AddProductDescriptionManCodePrice.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
