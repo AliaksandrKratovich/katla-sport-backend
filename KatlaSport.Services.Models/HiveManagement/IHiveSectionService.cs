@@ -28,6 +28,12 @@ namespace KatlaSport.Services.HiveManagement
         /// <returns>A <see cref="Task{List{HiveSectionListItem}}"/>.</returns>
         Task<List<HiveSectionListItem>> GetHiveSectionsAsync(int hiveId);
 
+        Task<HiveSection> CreateHiveSectionAsync(UpdateHiveSectionRequest createRequest, int hiveId);
+
+        Task<HiveSection> UpdateHiveSectionAsync(int hiveSecctionId, UpdateHiveSectionRequest updateRequest);
+
+        Task DeleteHiveSectionAsync(int hiveSecctionId);
+
         /// <summary>
         /// Sets deleted status for a hive section.
         /// </summary>
